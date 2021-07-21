@@ -19,7 +19,7 @@ function Start-ChiaFlexPoolWatchdog {
             CoinTicker = "XCH"
             Address = $ChiaWatchDog.Address
         }
-    }
+    } 
     catch{
         Write-Error "Unable to find watchdog by the name $Name"
         return
